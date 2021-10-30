@@ -1,4 +1,4 @@
-public class Solution1 {
+public class Easy {
 
     //Upvotes vs Downvotes
 	//Given an object containing counts of both upvotes and downvotes, return what vote count should be displayed. This is calculated by subtracting the number of downvotes from upvotes.
@@ -50,8 +50,12 @@ public class Solution1 {
 	public static String nameString(String name) {
 		return name + "Edabit";
   }
-  //
-  //
+  //Return the Remainder from Two Numbers
+  public static int remainder(int a, int b) {
+
+	return a % b;
+		
+}
 
 
 }
